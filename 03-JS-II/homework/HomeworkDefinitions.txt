@@ -1,0 +1,3 @@
+for: Recuerdas que las funciones nos ayudan a realizar una tarea sin repetir código? Pues los statement for son muy paercidos en este sentido. Para iniciar un ciclo for se necesita de una variable con un valor inicial, una condición que va a marcar cuándo debe dejar de ejecutarse el ciclo y una modificación a la variable inicial realizada en cada iteración del ciclo (para que en algún punto el ciclo se detenga al no cumplir la condición). 
+
+Operadores lógicos &&, ||, !: Recuerdas los valores booleanos que explicamos en la sección pasada? Estos operadores se usan para realizar operaciones sobre estos valores. Por ejemplo, para los números usamos operadores como + (suma) o - (resta). Estas "operaciones" entre valores booleanos retornan también un valor booleano.
