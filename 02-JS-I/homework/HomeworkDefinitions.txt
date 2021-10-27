@@ -1,0 +1,9 @@
+Variables: "lockers" donde se guarda un valor. Estos valores pueden ser usados las veces que sea necesario llamando a la variable.
+
+Strings: son un tipo de dato también conocido como cadena de caracteres. Este tipo de datos siempre va entre comillaa.
+
+Funciones: las funciones son bloques de código que automatizan ciertas tareas. Son muy útiles porque de esta manera no tienes que reescribir el mismo código cada vez que se necesite. Las funciones pueden acepatar argumentos. Los argumentos son valores que usa la función para realizar la tarea que la función realiza. Las funciones pueden producir ciertos valores que, en ocaciones, nos interesa guardar en una variable. Para hacer esto se utiliza la palabra reservada return.
+
+Declaraciones if: Alguna vez has estudiado idiomas? Recuerdas el condicional? Las declaraciones if son el condicioneal de los lenguajes de programación. Dentro de estas declaraciones se escribe código que se ejecuta unicamente si la condición que queremos evaluar se cumple. 
+
+Valores booleanos: los valores booleanos son un tipo de datos en Javascript. Estos pueden tomar únicamente dos valores, que en este caso son 'true' y 'false'. Seguro que te recuerdas un poco de tus clases de lógica matemática de la prepa verdad? Pues de esta forma se usan en la programación (y tú que pensabas que las matemáticas no te servirían para nada).
