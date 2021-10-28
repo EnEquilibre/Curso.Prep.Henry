@@ -123,7 +123,7 @@ function multiplicarArgumentos() {
   // Si no se pasan argumentos devuelve 0. Si se pasa un argumento, simplemente devuélvelo
   // Escribe tu código aquí:
   if (arguments.length===0 || arguments.length===1) {
-    return arguments.length;
+    return arguments.length;''
   }
   var multiplicacion = 1;
   for (var i = 0; i < arguments.length; i++) {

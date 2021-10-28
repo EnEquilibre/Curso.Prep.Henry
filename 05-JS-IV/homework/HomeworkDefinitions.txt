@@ -1,0 +1,20 @@
+Objetos: Los objetos se utilizan para guardar información relacionada a cierta cosa. Por ejemplo, supongamos que te gustan mucho los perros y tienes muchos perros de mascota. Necesitas tener bien organizada la información de cada uno de tus perros por si después se enferman y tienes que llevarlos con el veterinario. Para esto usaremos objetos en javascript. Comenzamos con tu perro Chucho, así que vas a la computadora y llenas los siguientes campos: nombre, raza, edad, peso, vacunas, enfermedades crónicas. En javascript se ve mas o menos así:
+
+var Chucho = {
+    nombre: 'Chucho',
+    raza: 'mestizo', // Con que te gusta darles hogar a perritos de la calle eh? Tipazo
+    edad: 8, 
+    peso: 9.4
+    vacunas: ['rabia', 'moquillo'] // Sólo conozco esas 
+    enfermedaes: [] // Muy sano Chucho, perfecto
+}
+
+Y así haces con tus demás perritos tambien. Así cuentas con la información de cada una de tus mascotas y tu veterinario agradecerá la organización.
+
+Propiedades: Volvamos con Chucho. Cada uno de los campos que llenaste se llaman propiedades y cuentan con una clave y un valor. El objeto de Chucho tiene 6 propiedades, donde la primera es nombre: 'Chucho'. nombre se refiere a la clave y 'Chucho' al valor.
+
+Métodos: No lo mencionamos antes pero las propiedades admiten cualquier cosa como valor. Lo que significa que las funciones no son la excepción. Un método es simplemente una función que es valor de alguna propiedad en un objeto.
+
+Bucle 'for in': Recuerdas que para recorrer un array usabamos el bucle for mas o menos asi for (var i=0; i<array.length; i++)? Esto porque para acceder al elemento j del array usabamos la siguiente notación array[j]. Bueno pues en los objetos se accede a los valores así objeto[clave]. Entonces.... hay alguna forma de reccorer los valores en un objeto como lo hacíamos con los arrays? Pues sí, y para eso sirve el bucle for in. Se usa de la siguiente manera: for (var i in objeto) y accedemos a los valores así objeto[i].
+
+Notación de punto vs notación de corchete: Así como ya se mencionó en la definición anterior, a los valores de un objeto se accede de la siguiente manera objeto[clave]. Esta notación se conoce como notación de corchete. Sin embargo, existe también otra manera conocida como notación de punto la cual es objeto.clave. Existen algunas diferencias en la forma en que pueden ser usadas. Por ejemplo, si se guarda la clave en una variable y se intenta acceder al valor usando la variable en lugar de la clave original, entonces la notación corchete es la única que se puede usar (objeto[variable]). La notación de punto no servirá.
