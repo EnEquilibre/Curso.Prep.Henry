@@ -1,0 +1,1 @@
+Arrays: Los arrays son como listas. Cuando ocupamos tener varios datos agrupados usamos un array. Cuando guardamos datos en un array se le asigna una "coordenada" que nos dice en qué lugar del array podemos encontrar cada dato. Esto es muy util porque de esta manera podemos obtener el dato que necesitamos de entre todos los demás.
