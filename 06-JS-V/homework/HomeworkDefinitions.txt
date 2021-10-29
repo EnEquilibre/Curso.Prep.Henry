@@ -1,0 +1,3 @@
+prototype: Es un objeto, cada constructor está relacionado con un prototype. El prototype guarda información que comparten todas las instancias del constructor. Evita la repetición de código y hace más eficiente el uso de memoria.
+
+Constructors: Los constructores de clase son funciones que crean una estructura básica que comparten todas las instancias de la clase asociada al constructor. De ahí su nombre (o eso creo), porque construyen el esqueleto de las instancias.
