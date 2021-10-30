@@ -1,0 +1,1 @@
+Funciones Callback: Se les da este nombre a una función cuando esta aparece como argumento de otra función.
